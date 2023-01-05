@@ -20,7 +20,7 @@ class ViewController: UIViewController {
 
     }
     func fetchData() {
-        let url = URL(string: "https://dog.ceo/api/breed/hound/images")
+        let url = URL(string: "https://dog.ceo/api/breed/husky/images")
         let task = URLSession.shared.dataTask(with: url!) { data, response, error in
             
             guard let data = data , error == nil else {
